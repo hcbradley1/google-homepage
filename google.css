@@ -1,0 +1,63 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+			/**********
+				logo
+			**********/
+.logo {
+	width: 275px;
+	margin:auto;
+	padding-top: 190px;
+	
+}
+
+img {
+	width: 275px;
+}
+
+		/**********
+		Searchbox
+		**********/
+
+.searchbox {
+	margin:auto;
+	border: 1px solid #E0E0EB;
+	width: 520px;
+	padding: 3.5px;
+}
+
+input.searchbar {
+	padding:1px;
+	width: 500px;
+	border: 1px solid transparent;
+}	
+
+		/**************
+			Buttons
+		**************/
+
+input.lucky, input.searchbutton {
+	color: #727282;
+	background-color: #F2F2FA;
+	font-size: 8pt;
+	font-family: arial;
+	font-weight: bold;
+	border: 1px solid #E0E0EB;
+	padding: 8px;
+	margin: 5px;
+}
+
+input.searchbutton {
+	width: 100px;
+}
+
+input.lucky {
+	width: 120px;
+}
+
+.submit {
+	margin: auto;
+	width: 250px;
+	padding: 15px;
+}
