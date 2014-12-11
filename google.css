@@ -61,3 +61,71 @@ input.lucky {
 	width: 250px;
 	padding: 15px;
 }
+
+		/**************
+			Header
+		**************/
+	
+.header {
+	color: #727282;
+	list-style-type: none;
+	margin: 0;
+	padding: 10px;
+	height: 50px;
+}
+
+.header ul li {
+		display: inline;
+		float: right; 
+		padding: 5px;
+		margin: 3px;
+		font-family: arial;
+		font-size: 10pt;
+	}
+
+.header ul li .alert, .box {
+	width: 28px;
+}
+
+.header ul li .drive {
+	width: 30px;
+}
+
+.header ul li .profilepic {
+	width: 40px;
+}
+
+		/**************
+			Footer
+		**************/
+		
+.footer {
+	color: #727282;
+	background-color:#F2F2FA;
+	list-style-type: none;
+	margin: 0;
+	padding: 10px;
+	border-top: 1px solid #E0E0EB;
+	position: absolute;
+	bottom: 0;
+	width: 98.6%;
+}
+
+.footer ul li {
+	display: inline;
+	padding: 8px;
+	margin: 10px;
+	font-family: arial;
+	font-size: 10pt;
+}
+
+.footer ul.footerright {
+	float: right;
+}
+
+.footer ul.footerleft {
+	float: left;
+}
+
+
+	
